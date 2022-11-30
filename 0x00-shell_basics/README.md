@@ -9,4 +9,5 @@ mv /tmp/betty /tmp/my_first_directory - move file from tmp dir to tmp/my_first_d
 rm /tmp/my_first_directory/betty - delete the file betty
 rmdir /tmp/dirname - deletes a directory
 cd - - changes work directory to the previous one
-file /tmp/iamafile - prints the type of the file named iamafile   
+file /tmp/iamafile - prints the type of the file named iamafile
+ln -s /bin/ls __ls__ -creates a symbolic link to /bin/ls named __ls__   
