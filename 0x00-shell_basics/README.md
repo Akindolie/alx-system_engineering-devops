@@ -12,4 +12,5 @@ cd - - changes work directory to the previous one
 file /tmp/iamafile - prints the type of the file named iamafile
 ln -s /bin/ls __ls__ -creates a symbolic link to /bin/ls named __ls__
 cp -u *.html .. --copy all html files from one directory to another but only copy files that did not exist in the destination directory or were newer than the versions in the destination
-ls -la . .. /root -list the files in the current working directory,the parent and the root directory. Including the hidden files   
+ls -la i. .. /root -list the files in the current working directory,the parent and the root directory. Including the hidden files  
+mv [[:upper:]]* /tmp/u  -move all files that starts with Uppercase to the specified directory 
