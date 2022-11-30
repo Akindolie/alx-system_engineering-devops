@@ -10,4 +10,5 @@ rm /tmp/my_first_directory/betty - delete the file betty
 rmdir /tmp/dirname - deletes a directory
 cd - - changes work directory to the previous one
 file /tmp/iamafile - prints the type of the file named iamafile
-ln -s /bin/ls __ls__ -creates a symbolic link to /bin/ls named __ls__   
+ln -s /bin/ls __ls__ -creates a symbolic link to /bin/ls named __ls__
+cp -u *.html .. --copy all html files from one directory to another but only copy files that did not exist in the destination directory or were newer than the versions in the destination   
