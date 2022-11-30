@@ -8,4 +8,4 @@ mkdir /dirpath/dirname - creates a directory in another directory
 mv /tmp/betty /tmp/my_first_directory - move file from tmp dir to tmp/my_first_directory/
 rm /tmp/my_first_directory/betty - delete the file betty
 rmdir /tmp/dirname - deletes a directory
-cd .. - changes work directory to the previous one   
+cd - - changes work directory to the previous one   
