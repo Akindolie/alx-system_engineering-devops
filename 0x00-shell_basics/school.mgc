@@ -1,4 +1,4 @@
 #!/bin/bash
 ls -pamv
-0 string SCHOOL School
+0 string SCHOOL School data
 !:mime School
